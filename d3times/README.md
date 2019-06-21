@@ -96,7 +96,7 @@ Additionally, the HTML page includes:
     ![part8](images/responsive.png)
 
 
-    ![part9](images/responsive2.png)
+    ![part9](images/responsive_2.png)
 
 - Links to the sources.
 
