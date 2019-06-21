@@ -27,4 +27,4 @@ This level includes the plot from Level 1 and:
    tooltips were added to the circles.  The `d3-tip.js` plugin developed by 
    [Justin Palmer](https://github.com/Caged) was included in the code.
 
-Go to the [repository](dataviz/).
+Go to the [repository](d3times/).
