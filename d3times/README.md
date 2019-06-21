@@ -9,7 +9,7 @@ the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.
 An interactive graphic and other informative elements were created to share the current trends
 shaping people's lives, and to help readers understand the findings.
 
-The [data set](data/data.csv)) used for this assignment is based on 2014 ACS 1-year estimates.
+The [data set](data/data.csv) used for this assignment is based on 2014 ACS 1-year estimates.
 
 ## Level 1: D3 Dabbler
 
@@ -36,7 +36,7 @@ This level includes the plot from Level 1 and:
 
     ![part2](images/risk_factors.png)
 
-  . Additional labels and click events so that the users can decide which data to display.
+  - Additional labels and click events so that the users can decide which data to display.
 
   - The mouse pointer will change to let the user know which labels are active to make a click 
   on them.
@@ -101,5 +101,5 @@ Additionally, the HTML page includes:
 - Links to the sources.
 
 
-* Note: You'll need to use `python -m http.server` to run the visualization. This will host 
+__Note__: You'll need to use `python -m http.server` to run the visualization. This will host 
 the page at `localhost:8000` in your web browser.
