@@ -90,7 +90,7 @@ Additionally, the HTML page includes:
      ![part7](images/correlations.png)
 
 
-  - The scatter plot and the rest of the elements of the page are responsive, usign a 
+  - The scatter plot and the rest of the elements of the page are __responsive__, usign a 
   function of D3.js and Bootstrap elements, respectively.
 
     ![part8](images/responsive.png)
@@ -100,6 +100,7 @@ Additionally, the HTML page includes:
 
 - Links to the sources.
 
+   ![part10](images/sources.png)
 
 __Note__: You'll need to use `python -m http.server` to run the visualization. This will host 
 the page at `localhost:8000` in your web browser.
