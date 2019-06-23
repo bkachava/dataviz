@@ -9,12 +9,12 @@ __D3.js, JavaScript, HTML, CSS and Bootstrap__ were used to build an interactive
 graphic and other informative elements for sharing the findings about the health 
 risks in the United States.
 
-The [data set](dataviz/data/data.csv) used for this assignment is based on 
+The [data set](d3times/data/data.csv) used for this assignment is based on 
 2014 ACS 1-year estimates.
 
 ### Level 1: D3 Dabbler
 
-Use D3.js to create a [scatter plot](dataviz/js/app.js) between two data variables such 
+Use D3.js to create a [scatter plot](d3times/js/app.js) between two data variables such 
 as `Obesity (%) vs. Poverty (%)`.
 
 ### Level 2: 1. More Data, More Dynamics and 2. Incorporate d3-tip
