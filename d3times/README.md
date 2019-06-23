@@ -90,11 +90,11 @@ Additionally, the HTML page includes:
      ![part7](images/correlations.png)
 
 
-  - The scatter plot and the rest of the elements of the page are __responsive__, usign a 
-  function of D3.js and Bootstrap elements, respectively.
+  - The scatter plot and the rest of the elements of the page are __responsive__, using a 
+  function of D3.js and Bootstrap elements, respectively. Also, the circles' radius and the
+  labels' font size are reduced when the user resizes the window.
 
     ![part8](images/responsive.png)
-
 
     ![part9](images/responsive_2.png)
 
