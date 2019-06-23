@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="padding-top: 10px;">
+  <div class="container" style="padding-right: 1px; padding-left: 1px;">
+   <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h2 class="text-info">D3Times</h2>
+        <h4>Interactive Graphic: Comparing the 2014 ACS 1-year estimates</h4>
+        <h6 class="text-muted">by Blanca Chavarría | June, 2019</h6>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-xs-10 col-md-10">
+        <p class="text-info  font-weight-bold">Choose a risk factor to update the chart</p>
+      </div>
+      <div class="col-xs-1 col-md-1">
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group mr-2" role="group" aria-label="Second group">
+            <span class="align-middle text-info"><small>Correlation</small></span>
+            <button type="button" class="btn btn-info disabled">+</button>
+            <button type="button" class="btn btn-danger disabled">-</button>
+          </div>
+        </div>
+      </div>
+   </div>  
+   <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+   </div>
+   <div class="row"><div class="col-xs-12 col-md-12"><p></p></div></div>
+   <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h5 class="text-muted">Correlations discovered between risk factors, according to the 
+          dataset based on 2014 ACS 1-year estimates:</h5>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-6 col-lg-4">
+          <div class="card border-info" style="width: 18rem;">
+              <div class="card-header font-weight-bold">Obesity rates</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">tended to <b class="text-inc">increase</b> with increased 
+                  <span class="badge badge-primary">Poverty</span>
+                  &nbsp; &nbsp; &nbsp; &nbsp; <small>CORREL=0.46</small></li>
+                <li class="list-group-item">had an <b class="text-muted">almost zero correlation</b> with 
+                  <span class="badge badge-warning">Age</span>
+                  &nbsp; &nbsp; &nbsp; &nbsp; <small>CORREL=-0.007</small></li>
+                <li class="list-group-item">tended to <b class="text-dec">decrease</b> 
+                  with increased <span class="badge badge-success">Income</span>
+                  &nbsp; &nbsp; &nbsp; &nbsp; <small>CORREL=-0.65</small></li>
+              </ul>
+            </div>
+       </div>  
+       <div class="col-md-6 col-lg-4">
+          <div class="card border-info" style="width: 18rem;">
+              <div class="card-header font-weight-bold">Smoking rates</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">tended to <b class="text-inc">increase</b> with increased 
+                  <span class="badge badge-primary">Poverty</span>
+                  &nbsp; &nbsp; &nbsp; &nbsp; <small>CORREL=0.52</small></li>
+                <li class="list-group-item">tended to <b class="text-inc">increase</b> with increased 
+                  <span class="badge badge-warning">Age</span>
+                  &nbsp; &nbsp; &nbsp; &nbsp; <small>CORREL=0.25</small></li>
+                <li class="list-group-item">tended to <b class="text-dec">decrease</b> with increased 
+                  <span class="badge badge-success">Income</span>
+                  &nbsp; &nbsp; &nbsp; &nbsp; <small>CORREL=-0.66</small></li>
+              </ul>
+            </div>
+      </div>  
+      <div class="col-md-6 col-lg-4">
+          <div class="card border-info" style="width: 18rem;">
+              <div class="card-header font-weight-bold">Lacking Healthcare rates</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">tended to <b class="text-inc">increase</b> with increased 
+                  <span class="badge badge-primary">Poverty</span>
+                  &nbsp; &nbsp; &nbsp; &nbsp; <small>CORREL=0.52</small></li>
+                <li class="list-group-item">tended to <b class="text-dec">decrease</b> with increased 
+                  <span class="badge badge-warning">Age</span>
+                  &nbsp; &nbsp; &nbsp; &nbsp; <small>CORREL=-0.38</small></li>
+                <li class="list-group-item">tended to <b class="text-dec">decrease</b> with increased 
+                  <span class="badge badge-success">Income</span>
+                  &nbsp; &nbsp; &nbsp; &nbsp; <small>CORREL=-0.43</small></li>
+              </ul>
+            </div>
+      </div>  
+   </div>
+   <div class="row"><div class="col-xs-12 col-md-12"><p></p></div></div>
+
+   <div class="row border border-secondary">
+     <div class="col-xs-12 col-md-12 bg-secondary text-white">
+         <p><small>Sources:
+            <br><a class="alert-link text-white" href="https://www.census.gov/programs-surveys/acs" target="_blank">American Community Survey (ACS) - Census Bureau</a>
+           <br><a class="alert-link text-white" href="https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml" target="_blank">
+            American Fact Finder</a>
+          <br><a class="alert-link text-white" href="data/data.csv">Data set</a>
+        </small></p>
+      </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
+</html>
