@@ -23,8 +23,8 @@ This level includes the plot from Level 1 and:
   - More demographics and risk factors for both axes.
   - Additional labels and click events so that the users can decide which data to display.
   - Animated transitions for the circles' locations as well as the range of the axes. 
-  - To reveal a specific element's data, when the user hovers their cursor over the element,
-   tooltips were added to the circles.  The `d3-tip.js` plugin developed by 
-   [Justin Palmer](https://github.com/Caged) was included in the code.
+  - Tooltips were added to the circles to reveal a specific element's data, when the user 
+  hovers their cursor over the element. The `d3-tip.js` plugin developed by 
+  [Justin Palmer](https://github.com/Caged) was included in the code.
 
 Go to the [repository](d3times/).
