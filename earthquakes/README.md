@@ -58,14 +58,14 @@ Additionaly:
   -  Options to view the two different data sets (Earthquakes and Fault Lines) into overlays, that can be turned on and off independently.
 
 
-   * __Earthquakes only__
+   __Earthquakes only__
 
    ![part8](images/earthquakes.png)
 
 
-   * __Fault Lines only__
+   __Fault Lines only__
 
-    ![part9](images/fault_lines.png)
+   ![part9](images/fault_lines.png)
 
 
  - A title for the page was included and links to the sources.
