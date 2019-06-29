@@ -39,31 +39,32 @@ Additionaly:
   - Base maps to choose from: Satellite, Grayscale and Outdoors, were included.
 
  ![part5](images/layers.png)
+ 
 
-    * __Sattelite__ Shown above
-
-
-    * __Grayscale__
-
-     ![part6](images/grayscale.png)
+   * __Sattelite__ Shown above
 
 
-    * __Outdoors__
+   * __Grayscale__
 
-     ![part7](images/outdoors.png)
+   ![part6](images/grayscale.png)
+
+
+   * __Outdoors__
+
+   ![part7](images/outdoors.png)
 
 
   -  Options to view the two different data sets (Earthquakes and Fault Lines) into overlays, that can be turned on and off independently.
 
 
-    * __Earthquakes only__
+   * __Earthquakes only__
 
-     ![part8](images/earthquakes.png)
+   ![part8](images/earthquakes.png)
 
 
-    * __Fault Lines only__
+   * __Fault Lines only__
 
-     ![part9](images/fault_lines.png)
+    ![part9](images/fault_lines.png)
 
 
  - A title for the page was included and links to the sources.
