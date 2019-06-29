@@ -32,7 +32,7 @@ option `All Earthquakes from the Past 7 Days` from [USGS GeoJSON Feed](http://ea
 
 ## Level 2: More Data
 
-In this level, a second data set was plotted on the map to illustrate the relationship between tectonic plates and seismic activity. The data set selected is available in this [page](https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json) as a GeoJSON file. Also, is located in the folder [json](json/PB2002_boundaries.json) in this repository.
+In this level, a second data set was plotted on the map to illustrate the relationship between tectonic plates and seismic activity. The data set selected is available in this [page](https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json) as a GeoJSON file. Also, the file is located in the folder [json](json/PB2002_boundaries.json) in this repository.
 
 
 Additionaly:
