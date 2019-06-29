@@ -21,13 +21,14 @@ option `All Earthquakes from the Past 7 Days` from [USGS GeoJSON Feed](http://ea
 
  ![part2](images/tooltip.png)
 
-    * A legend that provides context for the map data.
+   * A legend that provides context for the map data.
 
  ![part3](images/scale.png)
 
-    * The options to zoom in or zoom out.
+   * The options to zoom in or zoom out.
 
  ![part4](images/zoom.png)
+
 
 ## Level 2: More Data
 
@@ -46,12 +47,12 @@ Additionaly:
 
    * __Grayscale__
 
-   ![part6](images/grayscale.png)
+   ![part6](images/gray.png)
 
 
    * __Outdoors__
 
-   ![part7](images/outdoors.png)
+   ![part7](images/out.png)
 
 
   -  Options to view the two different data sets (Earthquakes and Fault Lines) into overlays, that can be turned on and off independently.
