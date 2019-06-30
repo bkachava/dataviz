@@ -1,0 +1,133 @@
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 97%;
+}
+
+h2 {
+  text-align: center;
+  color : navy;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.sources {
+  color : navy;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.legend {
+  width: 80px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #555;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend ul {
+  padding: 0;
+  margin: 0;
+  clear: both;
+  list-style-type: none;
+}
+
+.legend li {
+  width: 30px;
+  height: 22px;
+  
+}
+
+.legend .zero {
+  background-color: hsl(90, 100%, 50%);
+}
+
+.legend .zero::after {
+  content: "0-1";
+  position:absolute;
+  right: 10px;
+  height: 22px;
+  width: 30px;
+  background-color: #fff;
+}
+
+.legend .one {
+  background-color:hsl(75, 100%, 50%);
+}
+
+.legend .one::after {
+  content: "1-2";
+  position:absolute;
+  right: 10px;
+  height: 22px;
+  width: 30px;
+  background-color: #fff;
+}
+
+.legend .two {
+  background-color:hsl(60, 100%, 50%);
+}
+
+.legend .two::after {
+  content: "2-3";
+  position:absolute;
+  right: 10px;
+  height: 22px;
+  width: 30px;
+  background-color: #fff;
+}
+
+.legend .three {
+  background-color: hsl(45, 100%, 50%);
+}
+
+.legend .three::after {
+  content: "3-4";
+  position:absolute;
+  right: 10px;
+  height: 22px;
+  width: 30px;
+  background-color: #fff;
+}
+
+.legend .four {
+  background-color: hsl(30, 100%, 50%);
+}
+
+.legend .four::after {
+  content: "4-5";
+  position:absolute;
+  right: 10px;
+  height: 22px;
+  width: 30px;
+  background-color: #fff;
+}
+
+.legend .five {
+  background-color: hsl(15, 100%, 50%);
+}
+
+.legend .five::after {
+  content: "5+";
+  position:absolute;
+  right: 10px;
+  height: 22px;
+  width: 30px;
+  background-color: #fff;
+}
+
+.flines {
+  color : white;
+  background-color: rgb(48, 132, 242);
+}
